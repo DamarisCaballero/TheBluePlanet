@@ -239,6 +239,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    z-index: 1;
 }
 
 .planetas-container {
@@ -249,11 +251,14 @@ body {
     max-width: 800px;
     text-align: center;
     border: 2px solid #333; /* Cambia #333 por el color que prefieras para el delineado */
+    position: relative;
+    z-index: 2;
 }
 
 .content {
     max-width: 700px;
     margin: 0 auto;
+    color: #333;
 }
 
 h1 {
