@@ -154,3 +154,131 @@
         margin: 0;
     }
     
+    /*** div nuevo */
+
+    .LetMe{
+        text-align: center;
+    }
+    .guess-container {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin-bottom: 40px;
+        border-top: 1px solid #E5D4B7;
+        border-bottom: 1px solid #E5D4B7;
+        padding: 20px 0;
+    }
+    
+    .guess-item {
+        flex: 1;
+        padding: 10px;
+        text-align: center;
+        border-left: 1px solid #E5D4B7;
+    }
+    
+    .guess-item:first-child {
+        border-left: none;
+    }
+    
+    .guess-item p {
+        margin-top: 10px;
+        font-size: 20px;
+    }
+    
+    .icon {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+    }
+    
+    .sun {
+        background-color: #DAA520;
+        clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    }
+    
+    .moon {
+        background-color: #FFD700;
+        clip-path: circle(50% at 75%);
+    }
+    
+    .star {
+        background-color: #DAA520;
+        clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    }
+    
+    .footer-text {
+        margin-top: 20px;
+        text-align: center;
+    }
+    
+    .footer-text p {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    
+    button {
+        background-color: #DAA520;
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        color: #1A1A1A;
+    }
+    /** div nuevo fin */
+
+    /*** container de curiosidades */
+
+body {
+    margin: 0;
+    font-family: 'Times New Roman', serif;
+}
+
+#curiosidades-planetas-wrapper {
+    background: linear-gradient(to bottom, #e96443, #904e95);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.planetas-container {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 800px;
+    text-align: center;
+    border: 2px solid #333; /* Cambia #333 por el color que prefieras para el delineado */
+}
+
+.content {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 0.5rem;
+}
+
+h1::before {
+    content: '•';
+    font-size: 2rem;
+    position: absolute;
+    left: -1.5rem;
+    top: 0;
+    color: black;
+}
+
+p {
+    font-size: 1.2rem;
+    font-style: italic;
+    margin-bottom: 1.2rem;
+    line-height: 1.6;
+}
+
+    /** container de curiosidades fin */
